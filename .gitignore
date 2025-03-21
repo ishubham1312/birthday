@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build and distribution
+dist/
+build/
+*.min.js
+*.min.css
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache directories
+.cache/
+.temp/
+.tmp/
+
+# Optional: Image optimization
+*.webp
+*.avif
+
+# Optional: Testing
+coverage/
+.nyc_output/
+
+# Optional: Misc
+*.bak
+*.tmp
+*.temp 
